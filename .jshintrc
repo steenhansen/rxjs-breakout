@@ -1,0 +1,16 @@
+{
+  "undef": true,
+  "unused": true,
+  "esversion":6,
+  "globals": {
+    "GameProcs": true,
+    "CONSTANTS": true,
+    "GameBall":true,
+    "GameBrick":true,
+    "GamePaddle":true,
+    "Rx": true,
+    "document": true,
+    "Immutable": true,
+    "window":true
+  }
+}

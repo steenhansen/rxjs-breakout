@@ -1,0 +1,27 @@
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.2/immutable.min.js"></script>
+    <script src="gameProcs.js"></script>
+    <script src="gameItems.js"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='game-board' style='position:relative;'>
+        <button style='position:absolute; z-index:10;'>Start</button>
+        <div id='you-win' style="position:absolute; display:none;"> You Win! </div>
+        <div id='you-lose' style="position:absolute; display:none;"> You Lose </div>
+    </div>
+
+<script src="breakout.js"></script>
+
+</body>
+</html>
