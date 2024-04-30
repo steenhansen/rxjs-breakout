@@ -1,4 +1,5 @@
 <a name="fast-start"></a>
+<a name="s"></a>
 
 # rxjs-breakout
 Multi-ball breakout written in JavaScript with RxJs and ImmutableJs.
